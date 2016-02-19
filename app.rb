@@ -8,7 +8,7 @@ get '/' do
   if session['login']
   return "You are logged in!"
   else
-  return "Your are a potato"
+  return "You are not logged in!"
   end
 end
 
